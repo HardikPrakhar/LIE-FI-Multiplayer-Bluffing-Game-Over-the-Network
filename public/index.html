@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LIE-FI — Rules</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>LIE-FI</h1>
+  <h3 style="color:#666;font-weight:400;margin-top:0;">Bluff. Guess. Win.</h3>
+
+  <hr>
+
+  <h2>How to Play</h2>
+
+  <div class="rules-list">
+    <p>1. A question is shown to all players</p>
+    <p>2. Each player writes a fake answer</p>
+    <p>3. All answers are mixed with the real one</p>
+    <p>4. Players pick what they think is correct</p>
+    <p>5. Fool someone with your fake → you earn points 😈</p>
+    <p>6. Pick the correct answer → you earn points ✅</p>
+    <p>7. You can't vote for your own answer ❌</p>
+  </div>
+
+  <hr>
+
+  <h2>Scoring</h2>
+
+  <div class="score-row">
+    <div class="score-card">
+      <div class="pts">+100</div>
+      <div class="label">Correct answer</div>
+    </div>
+    <div class="score-card">
+      <div class="pts">+50</div>
+      <div class="label">Fool a player</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <h2>Team Mode</h2>
+  <p style="color:#888;font-size:14px;max-width:400px;margin:0 auto 8px;">
+    The host can pair players into teams of 2. Teammates can private-chat during each round to coordinate their bluffs and votes. The host sets teams in the lobby before starting.
+  </p>
+  <p style="color:#888;font-size:14px;">Teammates can't vote for each other's answers.</p>
+
+  <hr>
+
+  <button id="startGameBtn">Enter Lobby →</button>
+
+</div>
+
+<script>
+  document.getElementById("startGameBtn").onclick = () => {
+    window.location.href = "game.html";
+  };
+</script>
+
+</body>
+</html>
