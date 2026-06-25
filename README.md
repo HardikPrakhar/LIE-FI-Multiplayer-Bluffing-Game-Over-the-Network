@@ -1,4 +1,4 @@
-# LIE-FI 🎭
+# LIE-FI 
 
 **Bluff. Guess. Win.**
 
